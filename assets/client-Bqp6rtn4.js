@@ -1,0 +1,1 @@
+import{t as e}from"./vendor-supabase-9jFSf5_H.js";var t=`https://lgrmtxadhinvtytksmeu.supabase.co`,n=`sb_publishable_CfaaD772y2_4kE_g2lPL5g_L5iIxu3t`,r=!n.includes(`PASTE_YOUR`)&&!0,i=t.match(/https:\/\/([^.]+)\.supabase\.co/)?.[1]??null,a=e(t,n,{auth:{storage:localStorage,persistSession:!0,autoRefreshToken:!0,detectSessionInUrl:!0,flowType:`pkce`}});export{r as n,i as r,a as t};

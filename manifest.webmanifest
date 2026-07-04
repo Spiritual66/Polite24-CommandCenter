@@ -1,0 +1,24 @@
+{
+  "name": "Polite24 Command Center",
+  "short_name": "P.C.C",
+  "description": "Computer-aided dispatch for law enforcement — real-time dispatch, records, ALPR plate & ID scanning, mapping and analytics.",
+  "id": ".",
+  "start_url": "dashboard",
+  "scope": ".",
+  "display": "standalone",
+  "display_override": ["standalone", "minimal-ui"],
+  "orientation": "any",
+  "background_color": "#0A0F1E",
+  "theme_color": "#0A0F1E",
+  "categories": ["business", "productivity", "utilities"],
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Dispatch Console", "short_name": "Dispatch", "url": "mdt/dispatch", "description": "Open the live dispatch console" },
+    { "name": "Officer MDT", "short_name": "Officer", "url": "mdt/officer", "description": "Open the officer mobile terminal" },
+    { "name": "Sign In", "short_name": "Sign In", "url": "login" }
+  ]
+}

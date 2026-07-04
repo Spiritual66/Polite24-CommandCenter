@@ -1,0 +1,1 @@
+import{t as e}from"./client-Bqp6rtn4.js";var t=async t=>{try{let{error:n}=await e.from(`audit_logs`).insert({tenant_id:t.tenantId,user_id:t.userId,username:t.username,action:t.action,entity_type:t.entityType||``,entity_id:t.entityId||``,details:t.details||{}});n&&console.error(`Failed to log action:`,n)}catch(e){console.error(`Error in logAction:`,e)}};export{t};

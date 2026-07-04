@@ -1,0 +1,1 @@
+import{t as e}from"./client-Bqp6rtn4.js";async function t(t){let{data:n,error:r}=await e.functions.invoke(`ai-generate`,{body:t});if(r){let e=r.message||`AI request failed`,t=r.context;if(t&&typeof t.json==`function`)try{let n=await t.json();n?.error&&(e=n.error)}catch{}throw Error(e)}let i=n;if(i?.error)throw Error(i.error);return i?.text||``}export{t};
